@@ -1,5 +1,5 @@
 <meta>
-    <info author="VSCode MTA:SA Lua" type="script" name="ArTranslator" />
+    <info author="MR.POP(VaRPoP)" type="script" name="Dgs Language System" />
     <script src="config.lua" type="shared" cache="false" />
     <script src="s_language.lua" type="server" />
     <script src="c_language.lua" type="client" cache="false" />
