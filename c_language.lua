@@ -22,7 +22,9 @@ function dgsLangs(selected)
             if File.exists(filePath) then file = File.open(filePath) end
         end
         if not File.exists(filePath) then return {} end
-        data = loadstring(file:read(file:getSize()))()
+        local func = loadstring(file:read(file:getSize()))
+        if func then setfenv(func,{}) end
+        local err , data = pcall(func)
         file:close()
         return data
     end
