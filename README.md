@@ -1,5 +1,6 @@
 # DGS-Language-System
 It is a script that helps manage translation files from one side and uses them whenever the person wants.
+
 _*inclube : [thispd/dgs - 3.517](dgs)*_
 # Authors
  * __MrPop ([VaRPoP](Me))__
