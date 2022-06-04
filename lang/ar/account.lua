@@ -1,6 +1,12 @@
 return {
     login ={
-        'can == "true"' , 'You are seccuss to login',
-        'can  == "false"' , 'You are failed to login',
+        'can' , 'انت تستطيع الدخول',
+        'not can' , 'خطأ في تسجيل الدخول',
+        '$can'
     },
+    register = {
+        'can' , 'تم انشاء حساب بنجاح',
+        'not can' , 'خطأ في انشاء حساب',
+        '$can'
+    }
 }

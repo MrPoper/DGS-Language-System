@@ -82,3 +82,4 @@ function scanFiles(Meta)
         if type(Meta) == 'boolean' and Meta == true then addToMeta('lang/'..lang..'.lua') end
     end
 end
+-- scanFiles(true)

@@ -43,21 +43,3 @@ function LangsImport()
     end
     return allCode
 end
-
------------------++ EXEMPLE TEST PROJECT ++-------------------
-
-addEventHandler('onClientElementDataChange',root,
-function(dataName)
-    if dataName == data_name then
-        dgsSetTranslationTable("Test", dgsLangs())
-    end
-end)
-
-dgsSetTranslationTable("Test", dgsLangs())
-dgsSetAttachTranslation("Test")
-label = dgsCreateLabel (0.51, 0.54, 0.16, 0.14,{'healthy',health=100} , true )
-setTimer(
-    function()
-        localPlayer:setData(data_name,'ar')
-    end,1000,1
-)
