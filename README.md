@@ -1,15 +1,15 @@
 # DGS-Language-System
 It is a script that helps manage translation files from one side and uses them whenever the person wants.
 
-_*inclube : [thispd/dgs - 3.517](dgs)*_
+_*inclube : [thispd/dgs - 3.517](https://github.com/thisdp/dgs)*_
 # Authors
- * __MrPop ([VaRPoP](Me))__
+ * __MR.P\[O\]P ([VaRPoP](https://github.com/MrPoper))__
 # How-To-Use :
 - Add under code in first line of script : 
 ```lua
     loadstring(exports.dgsLanguageSystem:LangsImport())()
 ```
-- Then add **default [dgs](dgs)** function of translate with  `dgsLangs()` in table:
+- Then add **default [dgs](https://github.com/thisdp/dgs)** function of translate with  `dgsLangs()` in table:
     * #### Default function :
     
     ```lua
@@ -26,7 +26,7 @@ _*inclube : [thispd/dgs - 3.517](dgs)*_
     ```
 # Functions
 * `LangsImport()` Import exporting function to resource
-* `dgsLangs(string [ locale_name ])`: Return table to use in default [dgs](dgs) translator
+* `dgsLangs(string [ locale_name ])`: Return table to use in default [dgs](https://github.com/thisdp/dgs) translator
 * `getLocale(player thePlayer)`: Return player lanaguage.
 # Add new language or file :
 in `dgsLanguageSystem` is automatic creating and sync files to do :
@@ -48,6 +48,4 @@ in `dgsLanguageSystem` is automatic creating and sync files to do :
 * Start resource `/start dgsLanguageSystem`
 
 
-## and enjoy :) 
-[dgs]: https://github.com/thisdp/dgs
-[Me]: https://github.com/MrPoper
+## and enjoy :)
